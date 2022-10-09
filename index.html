@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co takie prodramowanie</title>
+    <link rel="icon" type="image/x-icon" href="/Images/Site.ico">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body class="body" style="display: flex;flex-direction: column;align-items: center;">
+    <p class="text" style="font-variant: small-caps;">Enter the correct <span style="color:red;">password</span> and 
+        <span style="color:red;">username</span> to enter the site</p>
+    <form class="form" name="Enter" method="post" action="">
+        <label class="label">UserName:&nbsp;&nbsp;<input type="text" required id="username"></label>
+        <br>
+        <label class="label">Password:&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" required id="password"></label>
+        <br>
+        <button class="btnEnter" id="enter">Enter</button>
+    </form>
+    <script>
+        enter.onclick = function() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            if (username == "Hacker2022" && password == "PolandHacker")
+                window.open("main.html");
+            else
+                alert('I\'m sorry, but you entered the pass data incorrectly');
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+}
+
+body::-webkit-scrollbar {
+    display: none;;
+}
+
+.header {
+    width: 1080px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #1e232a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.btnHeader {
+    padding: 15px 25px;
+    margin: 5px 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(12, 216, 63);
+    background: linear-gradient(120deg, rgb(14, 52, 157), rgb(18, 203, 139));
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.btnHeader:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1 {
+    color:#58a6ff;
+    font-size: 65px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+h2 {
+    color:darkorchid;
+    font-size: 45px;
+    margin: 20px auto;
+    padding: 0px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.divAutor {
+    margin-top: 15px;
+}
+
+div {
+    max-width: 1050px;
+    min-width: 1050px;
+    margin: 20px 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkcyan;
+    border-radius: 50px;
+}
+
+.autorImg {
+    margin-top: 40px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 3px solid rgb(11, 11, 125);
+}
+
+p.text {
+    margin: 0px;
+    padding: 15px 30px;
+    color:rgb(20, 199, 20);
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type:circle;
+    color:yellow;
+    font-size: 20px;
+}
+
+.link {
+    color:dodgerblue;
+    text-decoration: none;
+    transition: 0.9s;
+}
+
+.link:hover {
+    font-size: 1.08em;
+}
+
+.img {
+    padding: 0px;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 700px;
+    height: 500px;
+    border-radius: 50px;
+    border: 3px solid palevioletred;
+}
+
+li {
+    font-size: 25px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.imgMany {
+    padding: 0px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50px;
+    border: 3px solid rgb(11, 192, 228);
+}
+
+button.download {
+    padding: 20px 70px;
+    margin: 20px;
+    border-radius: 30px;
+    border: 5px solid rgb(12, 19, 216);
+    background: linear-gradient(120deg, yellow, rgb(203, 8, 151), rgb(14, 219, 14));
+    color:aqua;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.9s;
+}
+
+button.download:hover {
+    transform: scale(1.1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.label {
+    color:aqua;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    color:#58a6ff;
+    background-color:black;
+    border: 3px solid rgb(3, 208, 226);
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btnEnter {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: linear-gradient(120deg, rgb(14, 219, 14), blue);
+    color:white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.9s;
+}
+
+.btnEnter:hover {
+    transform: scale(1.1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.error {
+    margin: 0px;
+    padding: 15px 30px;
+    color:red;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center; 
+}
