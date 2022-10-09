@@ -217,12 +217,3 @@ input {
     flex-direction: column;
     align-items: center;
 }
-
-p.error {
-    margin: 0px;
-    padding: 15px 30px;
-    color:red;
-    font-size: 35px;
-    font-style: italic;
-    text-align: center; 
-}
